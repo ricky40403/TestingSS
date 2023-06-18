@@ -1,0 +1,10 @@
+model:  
+  name: "SSHand"
+  backbone: "YoloMAE"
+  neck: "FPN"
+  classes: 80
+train:
+  optimizer:
+    name: "AdamW"
+    weight_decay: 1e-2
+    lr: 4e-3
